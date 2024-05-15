@@ -51,11 +51,13 @@ Uso
 
     cd plataforma-regional-fase1-narino
     ```
-3.  Descargar y descomprimir el contenido del lms, el cual se encuentra comprimido en archivos .zip
+3.  Descargar y descomprimir el contenido del lms, el cual se encuentra comprimido en archivos .zip, para la descompreción es neceario parametrizar la variable de entorno LANG
     ```
     cd moodle
 
-    wget https://aulas-7m.s3.amazonaws.com/regional/moodle7.zip
+    wget https://aulas-7m.s3.amazonaws.com/regional/moodle8.zip
+    
+    export LANG=es_ES.UTF-8
     
     7z x moodle7.zip 
 
