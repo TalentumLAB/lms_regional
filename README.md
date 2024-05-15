@@ -59,7 +59,7 @@ Uso
     
     export LANG=es_ES.UTF-8
     
-    7z x moodle7.zip 
+    7z x moodle8.zip 
 
     wget https://aulas-7m.s3.amazonaws.com/regional/moodledata3.zip
 
